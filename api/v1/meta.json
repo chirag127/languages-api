@@ -1,0 +1,15 @@
+{
+  "status": "healthy",
+  "lastUpdated": "2026-08-25T13:59:37.843Z",
+  "sourceUpdatedAt": "2026-08-25T13:59:37.843Z",
+  "retrievedAt": "2026-08-25T13:59:37.843Z",
+  "recordCount": 1,
+  "version": "1.0.0",
+  "schemaVersion": "1.0.0",
+  "source": "ISO 639 / Ethnologue",
+  "license": "CC0-1.0",
+  "updateCadence": "yearly",
+  "nextUpdateDue": "2026-11-23T13:59:37.843Z",
+  "lastFailedAt": null,
+  "failureReason": null
+}
