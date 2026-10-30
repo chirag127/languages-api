@@ -1,0 +1,55 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "World Languages",
+    "description": "ISO 639 languages with name, native name, and speakers count",
+    "version": "1.0.0",
+    "license": {
+      "name": "CC0-1.0"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://chirag127.github.io/languages",
+      "description": "GitHub Pages"
+    }
+  ],
+  "paths": {
+    "/data.json": {
+      "get": {
+        "summary": "World Languages data",
+        "description": "ISO 639 languages with name, native name, and speakers count",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/languages": {
+      "get": {
+        "summary": "World Languages",
+        "description": "ISO 639 languages with name, native name, and speakers count",
+        "responses": {
+          "200": {
+            "description": "JSON response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
